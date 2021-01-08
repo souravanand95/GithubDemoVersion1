@@ -5,9 +5,9 @@ import org.testng.annotations.Test;
 public class TC001 {
 
 	@Test
-	public void m1()
+	public void Login()
 	{
-		System.out.println("This is a newlt added Test Case");
+		System.out.println("This is how we login");
 	}
 	
 }
