@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class DemoTest2 {
 
 	@Test
-	public void sum()
+	public void plus()
 	{
 		System.out.println("ADDITION");
 		int a=20;
@@ -15,7 +15,7 @@ public class DemoTest2 {
 	}
 	
 	@Test
-	public void substract()
+	public void minus()
 	{
 		System.out.println("SUBSTRACTION");
 		int a=20;
@@ -24,7 +24,7 @@ public class DemoTest2 {
 	}
 	
 	@Test
-	public void multiply()
+	public void into()
 	{
 		System.out.println("MULTIPLICATION");
 		int a=20;
@@ -33,7 +33,7 @@ public class DemoTest2 {
 	}
 	
 	@Test
-	public void division()
+	public void by()
 	{
 		System.out.println("DIVISION");
 		int a=20;
