@@ -6,36 +6,36 @@ import org.testng.annotations.Test;
 public class DemoTest2 {
 
 	@Test
-	public void sum()
+	public void plus()
 	{
-		System.out.println("ADDITION");
+		System.out.println("PLUS");
 		int a=20;
 		int b=10;
 		Assert.assertEquals(30, a+b);
 	}
 	
 	@Test
-	public void substract()
+	public void minus()
 	{
-		System.out.println("SUBSTRACTION");
+		System.out.println("MINUS");
 		int a=20;
 		int b=10;
 		Assert.assertEquals(10, a-b);
 	}
 	
 	@Test
-	public void multiply()
+	public void into()
 	{
-		System.out.println("MULTIPLICATION");
+		System.out.println("INTO");
 		int a=20;
 		int b=10;
 		Assert.assertEquals(200, a*b) ;
 	}
 	
 	@Test
-	public void division()
+	public void by()
 	{
-		System.out.println("DIVISION");
+		System.out.println("BY");
 		int a=20;
 		int b=10;
 		Assert.assertEquals(2, a/b);
